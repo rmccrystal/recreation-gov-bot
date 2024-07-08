@@ -176,6 +176,7 @@ class RecGovBot:
             case RecBotState.PURCHASING:
                 logging.info("Purchasing")
                 input("Press Enter to continue...")
+                self.driver.quit()
         return self.state
 
     # Run the state machine
