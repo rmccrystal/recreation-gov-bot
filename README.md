@@ -1,5 +1,12 @@
 # Recreation.gov Reservation Bot
 
+## Background
+During my trip to Glacier National Park we quickly realized the good hikes were
+gated by a reservation system that opens at exactly 7PM and sells out within seconds.
+I created this bot in order to secure a reservation for Iceberg Lake Trail before selling out.
+Since the bot uses multiple instances and is able to make a reservation several hundred milliseconds
+after the reservation opens, it was able to secure a reservation for me and my family.
+
 ## Overview
 
 This project provides an automated bot for making reservations on recreation.gov.
