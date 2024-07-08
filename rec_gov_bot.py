@@ -174,7 +174,6 @@ class RecGovBot:
                     logging.error("Failed to reserve")
                     time.sleep(1)
             case RecBotState.PURCHASING:
-                # TODO: Implement purchasing logic
                 logging.info("Purchasing")
                 input("Press Enter to continue...")
         return self.state
